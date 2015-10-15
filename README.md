@@ -20,3 +20,5 @@ Install phpspec with composer:
 curl http://getcomposer.org/installer | php
 php composer.phar install
 ```
+
+Note: The composer.json file is already included in the master branch
