@@ -12,8 +12,8 @@ class GreetSpec extends ObjectBehavior
         $this->shouldHaveType('SimpleHello\Greet');
     }
 
-    function it_greets_by_saying_hello()
-    {
-        $this->greet()->shouldReturn('Hello Movehut!');
-    }
+//    function it_greets_by_saying_hello()
+//    {
+//        $this->greet()->shouldReturn('Hello Movehut!');
+//    }
 }
