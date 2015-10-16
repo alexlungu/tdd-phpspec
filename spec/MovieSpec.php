@@ -12,7 +12,13 @@ class MovieSpec extends ObjectBehavior
         $this->shouldHaveType('Movie');
     }
 
-    #Identity Matchers
+    /**
+     * Identity Matchers
+     * If you want to specify that a method returns a specific value, you can use the Identity matcher.
+     * It compares the result using the identity operator: ===.
+     * All 4 below are equivalent.There is no difference in how they work.
+     * Choose the one which makes your specification easier to read.
+     */
     function it_looks_like_a_good_movie()
     {
         $this->getRating()->shouldBe(5);
