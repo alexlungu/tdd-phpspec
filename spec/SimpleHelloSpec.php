@@ -1,19 +1,17 @@
 <?php
 
-namespace spec\SimpleHello;
+namespace spec;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-class GreetSpec extends ObjectBehavior
+class SimpleHelloSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('SimpleHello\Greet');
+        $this->shouldHaveType('SimpleHello');
     }
-
-//    function it_greets_by_saying_hello()
+//    function it_greets_with_hello()
 //    {
 //        $this->greet()->shouldReturn('Hello Movehut!');
 //    }
-}
