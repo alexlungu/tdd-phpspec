@@ -18,11 +18,11 @@ class MovieSpec extends ObjectBehavior
   */
     function it_compares_int_to_string()
     {
-        $this->getRating(5)->shouldBeLike('5');
+        $this->getIntRating(5)->shouldBeLike('5');
     }
 
     function it_compares_string_to_int()
     {
-        $this->getRating('5')->shouldBeLike(5);
+        $this->getStringRating('5')->shouldBeLike(5);
     }
 }
