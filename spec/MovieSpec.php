@@ -80,7 +80,7 @@ class MovieSpec extends ObjectBehavior
 
     /**
      * String End Matcher
-     * The StringStarts matcher lets you specify that a method should return a string starting with a given substring.
+     * The StringEnd matcher lets you specify that a method should return a string ending with a given substring.
      */
     function it_should_have_a_sub_title_that_ends_with_string()
     {
