@@ -16,9 +16,13 @@ class MovieSpec extends ObjectBehavior
   * Not as strict and follows the PHP rules for loose type comparison.
   * Does not matter whether Movie::getRating() returns an integer or a string.
   */
-    function it_will_compare_values()
+    function it_compares_int_to_string()
     {
         $this->getRating(5)->shouldBeLike('5');
+    }
+
+    function it_compares_string_to_int()
+    {
         $this->getRating('5')->shouldBeLike(5);
     }
 }
