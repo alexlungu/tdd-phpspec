@@ -19,7 +19,7 @@ class Movie
     public function setRating2($rating)
     {
 //        if ($rating < 0) {
-//            throw new \InvalidArgumentException("Invalid rating");
+//            throw new \InvalidArgumentException("Rating cannot be negative");
 //        }
     }
 }

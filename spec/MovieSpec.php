@@ -30,6 +30,6 @@ class MovieSpec extends ObjectBehavior
 
     function it_should_not_allow_negative_ratings_2()
     {
-        $this->shouldThrow(new \InvalidArgumentException("Invalid rating"))->during('setRating2', array(-3));
+        $this->shouldThrow(new \InvalidArgumentException("Rating cannot be negative"))->during('setRating2', array(-3));
     }
 }
